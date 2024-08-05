@@ -44,6 +44,19 @@ ul
     opacity: 1;
 
 }
+.padd-15
+{
+    padding-left: 15px;
+    padding-left: 15px;
+}
+.container
+{
+    max-width: 1100p
+    x;
+    width: 100%;
+    background: #ff004f;
+    margin: ;
+}
 .aside
 {
     width: 270px;
@@ -102,7 +115,8 @@ ul
     top: 0;
     right: 0;
 }
-.asode .nav-toggler
+
+.aside .nav-toggler
 {
     height: 40px;
     width: 45px;
@@ -113,7 +127,7 @@ ul
     top: 20px;
     border-radius: 5px;
     background: var(--bg-black-100);
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
 }
@@ -179,4 +193,9 @@ ul
 }
 .aside ul li a:hover::after {
     width: 100%;
+}
+/* --- home --- */
+.home .home-img img 
+{
+    height: 400px;
 }
